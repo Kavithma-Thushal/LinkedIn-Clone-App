@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# LinkedIn Clone | React native | Mobile Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Welcome to the LinkedIn Clone Repository! This is a mobile application built using React Native. The app aims to replicate the core features of LinkedIn, providing a platform for professionals to connect, network, and share content.
 
-## Get started
+## Technologies Used
 
-1. Install dependencies
+### Frontend
 
-   ```bash
-   npm install
-   ```
+✅ React Native<br/>
 
-2. Start the app
+### Backend
 
-   ```bash
-    npx expo start
-   ```
+✅ Node.js<br/>
+✅ Express.js<br/>
+✅ MongoDB<br/>
 
-In the output, you'll find options to open the app in a
+## Key Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Frontend
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+✅ Mobile application architecture for smooth navigation and enhanced user experience<br/>
+✅ Responsive design using React Native components for optimal display across devices<br/>
+✅ Integration with backend RESTful APIs to fetch and update user profiles, posts, connections, and messages<br/>
+✅ Interactive components for browsing profiles, sending connection requests, and messaging<br/>
+✅ User-friendly interfaces for viewing and interacting with the news feed, job listings, and professional networks<br/>
 
-## Get a fresh project
+### Backend
 
-When you're ready, run:
+✅ RESTful API endpoints for CRUD operations on user profiles, posts, connections, and messages<br/>
+✅ Integration with JWT (JSON Web Tokens) for secure user authentication and role-based access control<br/>
+✅ Utilization of Mongoose for interacting with the underlying MongoDB database<br/>
+✅ Implementation of validation and exception handling for robust error management<br/>
+✅ Documentation and testing using Swagger UI and Jest for maintaining code quality<br/>
 
-```bash
-npm run reset-project
-```
+## Usage
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1. Clone the repository: `git clone https://github.com/Kavithma-Thushal/Linkedin-Clone-React-Native.git`
+2. Install the dependencies: `npm install`
+3. Start the development server: `npm start`
+4. Open your preferred mobile emulator or browser or connect a mobile device to see the app in action
 
-## Learn more
+## Version
 
-To learn more about developing your project with Expo, look at the following resources:
+1.0.0
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+⭐️ If you encounter any bugs or issues, or if you have questions about the code, please contact me at:<br/>
+[kavithmathushal9007@gmail.com](mailto:kavithmathushal9007@gmail.com)<br/><br/>
 
-## Join the community
+<div align="center">
 
-Join our community of developers creating universal apps.
+#### This project is licensed under the [Apache License](LICENSE)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+#### © 2024 All Rights Reserved, Designed By [Kavithma Thushal](https://github.com/Kavithma-Thushal)
+
+</div>
