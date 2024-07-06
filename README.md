@@ -36,8 +36,9 @@ Welcome to the LinkedIn Clone Repository! This is a mobile application built usi
 
 1. Clone the repository: `git clone https://github.com/Kavithma-Thushal/Linkedin-Clone-React-Native.git`
 2. Install the dependencies: `npm install`
-3. Start the development server: `npm start`
-4. Open your preferred mobile emulator or browser or connect a mobile device to see the app in action
+3. Start the emulator: `npm run android`
+4. Open your preferred mobile emulator or connect a mobile device to see the app in action.
+5. Enjoy!
 
 ## Version
 
