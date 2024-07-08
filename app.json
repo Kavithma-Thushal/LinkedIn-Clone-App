@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "LinkedIn-Clone-React-Native",
-    "slug": "LinkedIn-Clone-React-Native",
+    "name": "LinkedIn-Clone-App",
+    "slug": "LinkedIn-Clone-App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
