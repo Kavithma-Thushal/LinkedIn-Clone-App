@@ -42,9 +42,9 @@ Welcome to the LinkedIn Clone Repository! This is a mobile application built usi
 
 ## Samples
 <div>
-  <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='200px'>
-  <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='200px'>
-  <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='200px'>
+  <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='300px'>
+  <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='300px'>
+  <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='300px'>
 </div>
 
 ## Version
