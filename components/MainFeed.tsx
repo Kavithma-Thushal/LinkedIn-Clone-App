@@ -1,13 +1,23 @@
-import React from 'react';
 import { View, Text, StyleSheet, FlatList } from 'react-native';
 
-const posts = [
-  { id: '1', content: 'Post 1 content...' },
-  { id: '2', content: 'Post 2 content...' },
-  { id: '3', content: 'Post 3 content...' },
-];
+export default function MainFeed() {
 
-const MainFeed: React.FC = () => {
+  const posts = [
+    { id: '1', content: 'Post 1 Content' },
+    { id: '2', content: 'Post 2 Content' },
+    { id: '3', content: 'Post 3 Content' },
+  ];
+
+  const styles = StyleSheet.create({
+    post: {
+      padding: 10,
+      marginVertical: 5,
+      backgroundColor: '#fff',
+      borderRadius: 5,
+      elevation: 1,
+    },
+  });
+
   return (
     <FlatList
       data={posts}
@@ -20,15 +30,3 @@ const MainFeed: React.FC = () => {
     />
   );
 };
-
-const styles = StyleSheet.create({
-  post: {
-    padding: 10,
-    marginVertical: 5,
-    backgroundColor: '#fff',
-    borderRadius: 5,
-    elevation: 1,
-  },
-});
-
-export default MainFeed;

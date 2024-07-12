@@ -1,7 +1,28 @@
-import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-const StatsSection: React.FC = () => {
+export default function StatsSection() {
+
+  const styles = StyleSheet.create({
+    container: {
+      flexDirection: 'row',
+      justifyContent: 'space-around',
+      padding: 10,
+      backgroundColor: '#fff',
+    },
+    stat: {
+      alignItems: 'center',
+    },
+    statNumber: {
+      fontSize: 18,
+      fontWeight: 'bold',
+      color: '#0073b1',
+    },
+    statLabel: {
+      fontSize: 14,
+      color: '#666',
+    },
+  });
+
   return (
     <View style={styles.container}>
       <View style={styles.stat}>
@@ -19,26 +40,3 @@ const StatsSection: React.FC = () => {
     </View>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    padding: 10,
-    backgroundColor: '#fff',
-  },
-  stat: {
-    alignItems: 'center',
-  },
-  statNumber: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    color: '#0073b1',
-  },
-  statLabel: {
-    fontSize: 14,
-    color: '#666',
-  },
-});
-
-export default StatsSection;
