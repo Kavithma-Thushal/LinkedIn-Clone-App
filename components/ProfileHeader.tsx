@@ -4,7 +4,7 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 const ProfileHeader: React.FC = () => {
   return (
     <View style={styles.container}>
-      <Image source={{ uri: 'https://via.placeholder.com/100' }} style={styles.profilePic} />
+      <Image source={require('../assets/images/profile_header.jpg')} style={styles.profilePic} />
       <View style={styles.info}>
         <Text style={styles.name}>Kavithma Thushal</Text>
         <Text style={styles.title}>Full Stack Engineer | Web Developer | Java Developer</Text>
