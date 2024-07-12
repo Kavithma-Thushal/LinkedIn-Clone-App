@@ -1,22 +1,43 @@
-import { View, Text, Image, StyleSheet } from 'react-native';
+import React from 'react';
+import { View, Text, Image, StyleSheet, Dimensions } from 'react-native';
 
 export default function ProfileHeader() {
 
+  const { width } = Dimensions.get('window'); // Get the device width for responsive design
+
   const styles = StyleSheet.create({
     container: {
-      padding: 10,
       backgroundColor: '#fff',
     },
-    headerBanner: {
-      flexDirection: 'row',
+    coverPic: {
+      width: width,
+      height: 100,
     },
     profilePic: {
       width: 100,
       height: 100,
       borderRadius: 50,
+      marginTop: -45,
+      borderWidth: 2,
+      borderColor: '#fff',
+      marginLeft: 10,
+    },
+    badgeContainer: {
+      alignItems: 'flex-start',
+      paddingLeft: 10,
+      marginTop: 10,
+    },
+    badge: {
+      backgroundColor: '#00a400',
+      color: '#fff',
+      paddingVertical: 2,
+      paddingHorizontal: 8,
+      borderRadius: 5,
     },
     info: {
-      marginLeft: 10,
+      marginTop: 7,
+      alignItems: 'flex-start',
+      paddingHorizontal: 10,
     },
     name: {
       fontSize: 20,
@@ -29,17 +50,6 @@ export default function ProfileHeader() {
     location: {
       fontSize: 14,
       color: '#888',
-    },
-    badgeContainer: {
-      marginTop: 5,
-      alignItems: 'center',
-    },
-    badge: {
-      backgroundColor: '#00a400',
-      color: '#fff',
-      paddingVertical: 2,
-      paddingHorizontal: 8,
-      borderRadius: 5,
     },
     statsContainer: {
       flexDirection: 'row',
@@ -62,17 +72,21 @@ export default function ProfileHeader() {
 
   return (
     <View style={styles.container}>
-      <View style={styles.headerBanner}>
-        <Image source={require('../assets/images/profile_header.jpg')} style={styles.profilePic} />
-        <View style={styles.info}>
-          <Text style={styles.name}>Kavithma Thushal</Text>
-          <Text style={styles.title}>Full Stack Engineer | Web Developer | Java Developer</Text>
-          <Text style={styles.location}>Galle District, Southern Province, Sri Lanka</Text>
-        </View>
-      </View>
+
+      <Image source={require('../assets/images/cover_pic.jpg')} style={styles.coverPic} />
+
+      <Image source={require('../assets/images/profile_pic.jpg')} style={styles.profilePic} />
+
       <View style={styles.badgeContainer}>
         <Text style={styles.badge}>#OPENTOWORK</Text>
       </View>
+
+      <View style={styles.info}>
+        <Text style={styles.name}>Kavithma Thushal</Text>
+        <Text style={styles.title}>Full Stack Engineer | Web Developer</Text>
+        <Text style={styles.location}>Galle District, Southern Province, Sri Lanka</Text>
+      </View>
+
       <View style={styles.statsContainer}>
         <View style={styles.stat}>
           <Text style={styles.statNumber}>3,228</Text>
@@ -87,6 +101,7 @@ export default function ProfileHeader() {
           <Text style={styles.statLabel}>Profile Views</Text>
         </View>
       </View>
+
     </View>
   );
 };
