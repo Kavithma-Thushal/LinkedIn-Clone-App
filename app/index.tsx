@@ -1,7 +1,6 @@
 import { View, StyleSheet } from 'react-native';
-import ProfileHeader from '@/components/ProfileHeader';
-import StatsSection from '@/components/StatsSection';
 import MainFeed from '@/components/MainFeed';
+import ProfileHeader from '@/components/ProfileHeader';
 
 export default function Index() {
 
@@ -15,7 +14,6 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <ProfileHeader />
-      <StatsSection />
       <MainFeed />
     </View>
   );

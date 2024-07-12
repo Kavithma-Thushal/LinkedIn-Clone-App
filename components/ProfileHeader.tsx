@@ -41,6 +41,23 @@ export default function ProfileHeader() {
       paddingHorizontal: 8,
       borderRadius: 5,
     },
+    statsContainer: {
+      flexDirection: 'row',
+      justifyContent: 'space-around',
+      paddingVertical: 10,
+    },
+    stat: {
+      alignItems: 'center',
+    },
+    statNumber: {
+      fontSize: 18,
+      fontWeight: 'bold',
+      color: '#0073b1',
+    },
+    statLabel: {
+      fontSize: 14,
+      color: '#666',
+    },
   });
 
   return (
@@ -55,6 +72,20 @@ export default function ProfileHeader() {
       </View>
       <View style={styles.badgeContainer}>
         <Text style={styles.badge}>#OPENTOWORK</Text>
+      </View>
+      <View style={styles.statsContainer}>
+        <View style={styles.stat}>
+          <Text style={styles.statNumber}>3,228</Text>
+          <Text style={styles.statLabel}>Followers</Text>
+        </View>
+        <View style={styles.stat}>
+          <Text style={styles.statNumber}>500+</Text>
+          <Text style={styles.statLabel}>Connections</Text>
+        </View>
+        <View style={styles.stat}>
+          <Text style={styles.statNumber}>253</Text>
+          <Text style={styles.statLabel}>Profile Views</Text>
+        </View>
       </View>
     </View>
   );
