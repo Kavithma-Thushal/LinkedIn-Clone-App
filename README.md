@@ -40,6 +40,9 @@ Welcome to the LinkedIn Clone Repository! This is a mobile application built usi
 4. Open your preferred mobile emulator or connect a mobile device to see the app in action.
 5. Enjoy!
 
+## Samples
+<img src='assets/images/ss/home.png' alt='LinkedIn Home' width='500px'>
+
 ## Version
 
 1.0.0
