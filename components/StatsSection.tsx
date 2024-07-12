@@ -5,7 +5,7 @@ const StatsSection: React.FC = () => {
   return (
     <View style={styles.container}>
       <View style={styles.stat}>
-        <Text style={styles.statNumber}>3,227</Text>
+        <Text style={styles.statNumber}>3,228</Text>
         <Text style={styles.statLabel}>Followers</Text>
       </View>
       <View style={styles.stat}>
@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
   statNumber: {
     fontSize: 18,
     fontWeight: 'bold',
+    color: '#0073b1',
   },
   statLabel: {
     fontSize: 14,

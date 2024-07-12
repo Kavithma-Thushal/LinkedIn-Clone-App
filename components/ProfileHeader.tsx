@@ -4,11 +4,16 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 const ProfileHeader: React.FC = () => {
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/images/profile_header.jpg')} style={styles.profilePic} />
-      <View style={styles.info}>
-        <Text style={styles.name}>Kavithma Thushal</Text>
-        <Text style={styles.title}>Full Stack Engineer | Web Developer | Java Developer</Text>
-        <Text style={styles.location}>Galle District, Southern Province, Sri Lanka</Text>
+      <View style={styles.headerBanner}>
+        <Image source={require('../assets/images/profile_header.jpg')} style={styles.profilePic} />
+        <View style={styles.info}>
+          <Text style={styles.name}>Kavithma Thushal</Text>
+          <Text style={styles.title}>Full Stack Engineer | Web Developer | Java Developer</Text>
+          <Text style={styles.location}>Galle District, Southern Province, Sri Lanka</Text>
+        </View>
+      </View>
+      <View style={styles.badgeContainer}>
+        <Text style={styles.badge}>#OPENTOWORK</Text>
       </View>
     </View>
   );
@@ -16,9 +21,11 @@ const ProfileHeader: React.FC = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flexDirection: 'row',
     padding: 10,
     backgroundColor: '#fff',
+  },
+  headerBanner: {
+    flexDirection: 'row',
   },
   profilePic: {
     width: 100,
@@ -39,6 +46,17 @@ const styles = StyleSheet.create({
   location: {
     fontSize: 14,
     color: '#888',
+  },
+  badgeContainer: {
+    marginTop: 5,
+    alignItems: 'center',
+  },
+  badge: {
+    backgroundColor: '#00a400',
+    color: '#fff',
+    paddingVertical: 2,
+    paddingHorizontal: 8,
+    borderRadius: 5,
   },
 });
 
