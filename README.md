@@ -21,6 +21,8 @@ Welcome to the LinkedIn Clone Repository! This is a mobile application built usi
   <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='200px'>
 </div>
 
+Figma Designs - https://www.figma.com/design/iMspsb1roRCEBanaiUxyqj/LinkedIn-Clone-App?node-id=0-1&t=yPwZaD8TfjoHhfJB-0
+
 ## Version
 
 1.0.0
