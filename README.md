@@ -5,13 +5,7 @@ Welcome to the LinkedIn Clone Repository! This is a mobile application built usi
 ## Technologies Used
 ✅ React Native<br/>
 
-## Usage
-
-1. Clone the repository: `git clone https://github.com/Kavithma-Thushal/Linkedin-Clone-App.git`
-2. Install the dependencies: `npm install`
-3. Start the emulator: `npm run android`
-4. Open your preferred mobile emulator or connect a mobile device to see the app in action.
-5. Enjoy!
+Figma Designs - https://www.figma.com/design/iMspsb1roRCEBanaiUxyqj/LinkedIn-Clone-App?node-id=0-1&t=yPwZaD8TfjoHhfJB-0
 
 ## Samples
 <div>
@@ -20,8 +14,6 @@ Welcome to the LinkedIn Clone Repository! This is a mobile application built usi
   <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='200px'>
   <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='200px'>
 </div>
-
-Figma Designs - https://www.figma.com/design/iMspsb1roRCEBanaiUxyqj/LinkedIn-Clone-App?node-id=0-1&t=yPwZaD8TfjoHhfJB-0
 
 ## Version
 
