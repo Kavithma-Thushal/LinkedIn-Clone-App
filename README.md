@@ -1,4 +1,4 @@
-# LinkedIn Clone | React Native | Mobile Application
+# LinkedIn Clone | React Native | Mobile Application 📱
 
 Welcome to the LinkedIn Clone Repository! This is a mobile application built using React Native. The app aims to replicate the core features of LinkedIn, providing a platform for professionals to connect, network, and share content.
 
