@@ -19,7 +19,7 @@ export default function MainFeed() {
       padding: 15,
       marginBottom: 10,
       backgroundColor: '#fff',
-      borderRadius: 10,
+      borderRadius: 5,
       elevation: 2,
     },
     title: {
