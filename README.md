@@ -24,8 +24,8 @@ Figma Designs - https://www.figma.com/design/iMspsb1roRCEBanaiUxyqj/LinkedIn-Clo
 ## Samples
 
 <div>
-  <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='200px'>
-  <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='200px'>
+  <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='400px'>
+  <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='400px'>
 </div>
 
 ## Version
