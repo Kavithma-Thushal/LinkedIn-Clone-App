@@ -24,8 +24,18 @@ Figma Designs - https://www.figma.com/design/iMspsb1roRCEBanaiUxyqj/LinkedIn-Clo
 ## Samples
 
 <div>
-  <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='400px'>
-  <img src='assets/images/ss/home.png' alt='LinkedIn Home' width='400px'>
+  <img src='assets/images/ss/Profile.png' alt='Profile' width='400px'>
+  <img src='assets/images/ss/Home.png' alt='Home' width='400px'>
+</div>
+
+<div>
+  <img src='assets/images/ss/Network.png' alt='Network' width='400px'>
+  <img src='assets/images/ss/Post.png' alt='Post' width='400px'>
+</div>
+
+<div>
+  <img src='assets/images/ss/Notification.png' alt='Notification' width='400px'>
+  <img src='assets/images/ss/Jobs.png' alt='Jobs' width='400px'>
 </div>
 
 ## Version
