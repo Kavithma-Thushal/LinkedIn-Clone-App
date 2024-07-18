@@ -33,11 +33,6 @@ Figma Designs - https://www.figma.com/design/iMspsb1roRCEBanaiUxyqj/LinkedIn-Clo
   <img src='assets/images/ss/Post.png' alt='Post' width='400px'>
 </div>
 
-<div>
-  <img src='assets/images/ss/Notification.png' alt='Notification' width='400px'>
-  <img src='assets/images/ss/Jobs.png' alt='Jobs' width='400px'>
-</div>
-
 ## Version
 
 1.0.0
