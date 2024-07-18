@@ -25,7 +25,7 @@ Figma Designs - https://www.figma.com/design/iMspsb1roRCEBanaiUxyqj/LinkedIn-Clo
 
 <div>
   <img src='assets/images/ss/Profile.png' alt='Profile' width='400px'>
-  <img src='assets/images/ss/Home.png' alt='Home' width='400px'>
+  <img src='assets/images/ss/Home.png' alt='Home' width='200px'>
 </div>
 
 <div>
