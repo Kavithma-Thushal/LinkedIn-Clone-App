@@ -1,18 +1,16 @@
 {
   "name": "linkedin-clone-app",
-  "main": "expo-router/entry",
   "version": "1.0.0",
+  "author": "Kavithma Thushal",
+  "license": "Apache-2.0",
+  "private": true,
+  "description": "This is LinkedIn Clone App Using React Native",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web",
-    "test": "jest --watchAll",
-    "lint": "expo lint"
-  },
-  "jest": {
-    "preset": "jest-expo"
+    "web": "expo start --web"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.2",
@@ -44,6 +42,5 @@
     "jest-expo": "~51.0.3",
     "react-test-renderer": "18.2.0",
     "typescript": "~5.3.3"
-  },
-  "private": true
+  }
 }
