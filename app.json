@@ -4,29 +4,6 @@
     "slug": "LinkedIn-Clone-App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "scheme": "LinkedIn-Clone-App",
-    "userInterfaceStyle": "automatic",
-    "splash": {
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "bundler": "metro",
-      "output": "static"
-    },
-    "plugins": [
-      "expo-router"
-    ],
-    "experiments": {
-      "typedRoutes": true
-    }
+    "scheme": "LinkedIn-Clone-App"
   }
 }
