@@ -4,7 +4,7 @@ Welcome to the LinkedIn Clone Repository! This is a mobile application built usi
 
 ## Overview
 
-The LinkedIn Clone app is designed to offer a professional networking experience similar to LinkedIn. It includes features that allow users to build their professional profiles, connect with colleagues, share updates, and engage in meaningful conversations. This project is ideal for those looking to understand the fundamentals of building a social networking app with modern technologies
+The LinkedIn Clone app is designed to offer a professional networking experience similar to LinkedIn. It includes features that allow users to build their professional profiles, connect with colleagues, share updates, and engage in meaningful conversations. This project is ideal for those looking to understand the fundamentals of building a social networking app with modern technologies.
 
 ## Features
 
