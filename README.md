@@ -19,8 +19,6 @@ The LinkedIn Clone app is designed to offer a professional networking experience
 
 ✅ React Native<br/>
 
-Figma Designs - https://www.figma.com/design/iMspsb1roRCEBanaiUxyqj/LinkedIn-Clone-App?node-id=0-1&t=yPwZaD8TfjoHhfJB-0
-
 ## Samples
 
 <div>
