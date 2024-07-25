@@ -25,32 +25,32 @@ The LinkedIn Clone app is designed to offer a professional networking experience
   <table>
     <tr>
       <td align="center">
-        <img src='assets/images/ss/Profile.png' alt='Profile' width='400px'>
-        <p>Profile</p>
+      <p>Profile</p>
+        <img src='assets/images/ss/Profile.png' alt='Profile' width='350px'>
       </td>
       <td align="center">
-        <img src='assets/images/ss/Home.png' alt='Home' width='400px'>
-        <p>Home</p>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <img src='assets/images/ss/Network.png' alt='Network' width='400px'>
-        <p>Network</p>
-      </td>
-      <td align="center">
-        <img src='assets/images/ss/Post.png' alt='Post' width='400px'>
-        <p>Post</p>
+      <p>Home</p>
+        <img src='assets/images/ss/Home.png' alt='Home' width='350px'>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src='assets/images/ss/Notification.png' alt='Notification' width='400px'>
-        <p>Notification</p>
+      <p>Network</p>
+        <img src='assets/images/ss/Network.png' alt='Network' width='350px'>
       </td>
       <td align="center">
-        <img src='assets/images/ss/Jobs.png' alt='Jobs' width='400px'>
-        <p>Jobs</p>
+      <p>Post</p>
+        <img src='assets/images/ss/Post.png' alt='Post' width='350px'>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+      <p>Notification</p>
+        <img src='assets/images/ss/Notification.png' alt='Notification' width='350px'>
+      </td>
+      <td align="center">
+      <p>Jobs</p>
+        <img src='assets/images/ss/Jobs.png' alt='Jobs' width='350px'>
       </td>
     </tr>
   </table>
