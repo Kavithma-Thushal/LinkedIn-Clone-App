@@ -24,31 +24,31 @@ The LinkedIn Clone app is designed to offer a professional networking experience
 <div align="center">
   <table>
     <tr>
-      <td align="center">
+      <td align="left">
       <p>Profile</p>
         <img src='assets/images/ss/Profile.png' alt='Profile' width='350px'>
       </td>
-      <td align="center">
+      <td align="left">
       <p>Home</p>
         <img src='assets/images/ss/Home.png' alt='Home' width='350px'>
       </td>
     </tr>
     <tr>
-      <td align="center">
+      <td align="left">
       <p>Network</p>
         <img src='assets/images/ss/Network.png' alt='Network' width='350px'>
       </td>
-      <td align="center">
+      <td align="left">
       <p>Post</p>
         <img src='assets/images/ss/Post.png' alt='Post' width='350px'>
       </td>
     </tr>
     <tr>
-      <td align="center">
+      <td align="left">
       <p>Notification</p>
         <img src='assets/images/ss/Notification.png' alt='Notification' width='350px'>
       </td>
-      <td align="center">
+      <td align="left">
       <p>Jobs</p>
         <img src='assets/images/ss/Jobs.png' alt='Jobs' width='350px'>
       </td>
