@@ -21,7 +21,7 @@ The LinkedIn Clone app is designed to offer a professional networking experience
 
 ## App Screenshots
 
-<div align="center">
+<div align="left">
   <table>
     <tr>
       <td align="left">
