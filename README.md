@@ -19,17 +19,43 @@ The LinkedIn Clone app is designed to offer a professional networking experience
 
 ✅ React Native<br/>
 
-## Samples
+## App Screenshots
 
-<div>
-  <img src='assets/images/ss/Profile.png' alt='Profile' width='400px'>
-  <img src='assets/images/ss/Home.png' alt='Home' width='400px'>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src='assets/images/ss/Profile.png' alt='Profile' width='400px'>
+        <p>Profile</p>
+      </td>
+      <td align="center">
+        <img src='assets/images/ss/Home.png' alt='Home' width='400px'>
+        <p>Home</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src='assets/images/ss/Network.png' alt='Network' width='400px'>
+        <p>Network</p>
+      </td>
+      <td align="center">
+        <img src='assets/images/ss/Post.png' alt='Post' width='400px'>
+        <p>Post</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src='assets/images/ss/Notification.png' alt='Notification' width='400px'>
+        <p>Notification</p>
+      </td>
+      <td align="center">
+        <img src='assets/images/ss/Jobs.png' alt='Jobs' width='400px'>
+        <p>Jobs</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
-<div>
-  <img src='assets/images/ss/Network.png' alt='Network' width='400px'>
-  <img src='assets/images/ss/Post.png' alt='Post' width='400px'>
-</div>
 
 ## Version
 
